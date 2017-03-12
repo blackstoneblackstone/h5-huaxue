@@ -14,7 +14,7 @@
 
 ## UI设计
 
-![](https://github.com/lihongbin100/h5-huaxue/blob/master/doc/h1.jpeg)
-![](https://github.com/lihongbin100/h5-huaxue/blob/master/doc/h2.jpeg)
-![](https://github.com/lihongbin100/h5-huaxue/blob/master/doc/h3.jpeg)
-![](https://github.com/lihongbin100/h5-huaxue/blob/master/doc/h4.jpeg)
+![](https://github.com/lihongbin100/h5-huaxue/blob/master/doc/h1.jpeg =300x300)
+![](https://github.com/lihongbin100/h5-huaxue/blob/master/doc/h2.jpeg =300x300)
+![](https://github.com/lihongbin100/h5-huaxue/blob/master/doc/h3.jpeg =300x300)
+![](https://github.com/lihongbin100/h5-huaxue/blob/master/doc/h4.jpeg =300x300)
