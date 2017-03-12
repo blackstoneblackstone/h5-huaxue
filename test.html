@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/createjs-2014.12.12.min.js"></script>
+</head>
+<body>
+<script>
+    $(function () {
+
+
+        //创建一个阶段，得到一个参考的画布
+        var stage = new createjs.Stage("canvas");
+
+        var spriteSheet = new createjs.SpriteSheet({
+            images: ["sprites/skier_falling.png"],
+            framerate: 20,
+            // width, height & registration point of each sprite
+            frames: {
+                width: 93,
+                height: 180,
+                regX: 43.5,
+                regY: 90
+            },
+            animations: {
+                idle: [2, 23, "idle"]
+            }
+        });
+        grant = new createjs.Sprite(spriteSheet, "idle");
+        grant.y = 35;
+
+        stage.addChild(grant);
+
+        createjs.Ticker.timingMode = createjs.Ticker.RAF;
+
+        createjs.Ticker.addEventListener("tick", handleTick);
+        function handleTick(event) {
+            var w = 400;
+
+            grant.x = w - (grant.x + 10);
+            stage.update(event);
+        }
+
+
+    });
+</script>
+<canvas id="canvas" class='ani_hack' width="400" height="700"></canvas>
+</body>
+</html>

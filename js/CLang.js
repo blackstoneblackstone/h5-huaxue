@@ -1,0 +1,10 @@
+TEXT_GAMEOVER    = "再接再厉啊";
+TEXT_SCORE       = "当前分数是: ";
+TEXT_GAMEOVER_1       = "不要气馁,小羊肖恩还有大礼相送!";
+TEXT_PAUSE       = "PAUSE";
+TEXT_DESKTOP     = "";
+TEXT_MOBILE      = "";
+TEXT_COPYRIGHT="©&™ Aardman Animations Ltd 2016";
+TEXT_LOTTERY_EXPLAIN="玩游戏,得奖品,小羊肖恩带你赚翻圣诞\n\n得分越高,排行靠前,就有机会领取奖品奥";
+TEXT_LOTTERY_LIST="一等奖前      名：60cm肖恩公仔一只\n二等奖前      名：胖胖雪莉公仔一只\n三等奖前      名：肖恩靠垫一个\n四等奖前      名：肖恩钥匙扣一个（随机发放）";
+TEXT_LOTTERY_PLACE="兑奖日期：12月23日-12月25日\n领奖地点：王府井赛特奥莱临潼店 顾客服务中心";

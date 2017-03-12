@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1a0d897f-3715-4846-a392-0a4f811e499b" name="赛特奥莱" url="http://123.57.237.121">
+        <fileTransfer host="123.57.237.121" port="22" rootFolder="/opt/weipeixun/game/saiteaolai" accessType="SFTP" password="dffedfc5dfdadfdddfcfdfd2dfdfdfcfdf98df9adf9bdf9f" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
